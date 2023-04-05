@@ -6,7 +6,10 @@ import {
     ModalHeader,
     ModalFooter,
     ModalBody,
+    useDisclosure
 } from "@chakra-ui/react";
+import axios from "axios";
+import {Modal1,Modal2} from "../components/Modal1.js"
 import {
     Box,
     Select,
@@ -55,6 +58,7 @@ import {
 
 
 export default function ContactFormWithSocialButtons() {
+const { isOpen, onOpen, onClose } = useDisclosure();
 const [formDetail,setFormDetail] = useState({name:"",email:"",destination:"",travellers:"",budget:""});
 const [isModal1Open, setIsModal1Open] = useState(false);
 const [isModal2Open, setIsModal2Open] = useState(false);
@@ -72,9 +76,16 @@ const handleModal1Close=()=>{
     }
         
 
+let modal1Props = {
+  isModal1Open, setIsModal1Open,  handleModal1Open, handleModal1Close
+}
 
+let modal2Props = {
+  isModal2Open, setIsModal2Open,  handleModal2Open, handleModal2Close
+}
 function handleChange(e){
     console.log(formDetail)
+   
     let {name,value} = e.target;
     // console.log(e.target)
     setFormDetail((prevform)=>{
@@ -82,16 +93,17 @@ function handleChange(e){
     })
 }
   
-function handleSubmit(e){
-    e.preventDefault();
-   let isValidated = detailsValidator(formDetail)
+async function handleSubmit(e){
+e.preventDefault();
+let isValidated = detailsValidator(formDetail)
 if(isValidated){
-
+  axios.post("")
 }
-   
+  
 }
 
     return (
+      
       <Flex
         bg={useColorModeValue('gray.100', 'gray.900')}
         align="center"
@@ -201,7 +213,8 @@ value = {formDetail.email}
             </VStack>
           </Box>
         </Box>
-        
+        <Modal1 {...modal1Props}/>
+        <Modal2 {...modal2Props}/>
       </Flex>
     );
   }

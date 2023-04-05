@@ -3,5 +3,16 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "mongoose": "^7.0.3"
-  }
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "backend",
+  "description": "travelopia backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
