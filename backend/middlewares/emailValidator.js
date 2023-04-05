@@ -8,3 +8,4 @@ function validateEmail(mail)
     return (false)
 }
 module.exports = {validateEmail}
+
