@@ -54,7 +54,7 @@ body = {
 <h4>
 Get  all bookings with pagination enabled  ----->    GET /booking/:page/:perpage
 </h4>
-
+where :page is between(1 to N) And :perpage is number of pages per page
 URL-->https://travelopiaserver.onrender.com/booking/:page/:perpage;
 
 
