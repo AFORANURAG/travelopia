@@ -20,8 +20,8 @@ mongoose
 <h2>API Endpoints</h2>
 
 app.use("/booking",router);
+<h4>Create a new booking. --->POST /booking/</h4>
 
-Create a new booking. --->POST /booking/
 url-->https://travelopiaserver.onrender.com/booking (POST)
 
 
@@ -51,8 +51,10 @@ body = {
             "budget": 10,
 }
 
-
+<h4>
 Get  all bookings with pagination enabled  ----->    GET /booking/:page/:perpage
+</h4>
+
 URL-->https://travelopiaserver.onrender.com/booking/:page/:perpage;
 
 
