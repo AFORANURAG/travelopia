@@ -19,6 +19,8 @@ mongoose
 
 <h2>API Endpoints</h2>
 
+app.use("/booking",router);
+
 Create a new booking. --->POST /booking/
 url-->https://travelopiaserver.onrender.com/booking (POST)
 modal schema = {
@@ -39,8 +41,7 @@ body =  {
             "destination": "India",
             "travellers": 999,
             "budget": 10,
-            "__v": 0
-   }
+ }
 
 body = {
 
