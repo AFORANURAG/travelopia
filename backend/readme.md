@@ -40,8 +40,15 @@ body =  {
             "travellers": 999,
             "budget": 10,
             "__v": 0
-        }
+   }
 
+body = {
+
+    "email": "user@example.com",
+    "first_name": "John",
+    "last_name": "Doe",
+    "password": "password123"
+}
 
 
 Get  all bookings with pagination enabled  ----->    GET /booking/:page/:perpage
