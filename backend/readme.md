@@ -36,25 +36,8 @@ booking Modal Schema = {
             travellers:{type:Number,min:1,max:1000},
             budget:{type:Number,min:1,max:1000000}
 },
-
-{timestamps:"true"}
+            {timestamps:"true"}
 }
-
-
-modal schema = {
-
-  name:String,
-  email:String,
-  destination:{ type: String,
-    enum: ['India', 'Africa',"Europe"],
-    default: 'India'},
-    travellers:{type:Number,min:1,max:1000},
-    budget:{type:Number,min:1,max:1000000}
-},
-
-{timestamps:"true"} 
-}
-
 
 
 body = {
