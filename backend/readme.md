@@ -49,64 +49,28 @@ URL-->https://travelopiaserver.onrender.com/booking/:page/:perpage;
 
 
 Search for booking with a particular email -->"booking/email/:email/:page
-GET /doctor/department/:id
+URL--> GET https://travelopiaserver.onrender.com/booking/email/:email/:page;
 
-
-Update a doctor.
-PUT /doctor/:id
-
-body = {
-
-    "departmentId": 1,
-    "name": "Dr. sunil kumar",
-    "specialization": "Pediatrics",
-    "availability": true,
-    "qualifications": "MD, FAAP",
-    "experience": "5+ years",
-    "img": "https://example.com/doctors/jane-smith.jpg",
-    "rating": 4.9
-}
-
-Delete a doctor.
-DELETE /doctor/:id
-
-
-<h3>Patients</h3>
-
-Get all patients.
-GET /patient
-
-
-Get a single patient by ID.
-GET /patient/:id
+Search for booking with a particular name -->"booking/name/:name/:page
+URL-->GET https://travelopiaserver.onrender.com/booking/name/:name/:page;
 
 
 
-Create a new patient.
-POST /patient
+Sort the data with name. -->"booking/sort/:sortingindex/name/:page
+URL--> GET https://travelopiaserver.onrender.com/booking/sort/:sortingindex/name/:page;
 
-body = {
 
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "dob": "1990-01-01"
-}
+Sort the data with email. -->"booking/sort/:sortingindex/email/:page
+URL--> GET https://travelopiaserver.onrender.com/booking/sort/:sortingindex/email/:page;
 
-Update a patient.
-PUT /patient/:id
 
-body ={
+Sort the data with number of travellers. -->"booking/sort/:sortingindex/travellers/:page
+URL--> GET https://travelopiaserver.onrender.com/booking/sort/:sortingindex/travellers/:page;
 
-    "name": "John Smith",
-    "date_of_birth": "1988-05-20",
-    "email": "john.smith@example.com",
-    "phone_number": "+1 555-123-4567",
-    "address": "123 Main St, Anytown, USA"
-}
 
-Delete a patient:
-DELETE /patients/:id
 
+Sort the data with amount of different of every booking -->"booking/sort/:sortingindex/budget/:page
+URL--> GET https://travelopiaserver.onrender.com/booking/sort/:sortingindex/budget/:page;
 
 
 
