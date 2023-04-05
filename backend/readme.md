@@ -23,6 +23,22 @@ app.use("/booking",router);
 
 Create a new booking. --->POST /booking/
 url-->https://travelopiaserver.onrender.com/booking (POST)
+body = {
+
+   
+            name:String,
+  email:String,
+  destination:{ type: String,
+    enum: ['India', 'Africa',"Europe"],
+    default: 'India'},
+    travellers:{type:Number,min:1,max:1000},
+    budget:{type:Number,min:1,max:1000000}
+},
+
+{timestamps:"true"}
+}
+
+
 modal schema = {
 
   name:String,
