@@ -24,6 +24,7 @@ nav ul li a{
     text-decoration: none;
     transition: 1s;
     border: 10px;
+    font-family:"cursive"
 }
 
 nav ul li a:hover{
@@ -42,6 +43,7 @@ background-color: black;
     margin-left: 20px;
     transition: 1s;
     padding: 10px;
+font-family:"cursive"
 }
 .logo > a:hover{
 background-color: black;
@@ -51,7 +53,7 @@ color: white;
 #upperbody{
 background-image: url("../../public/pexels-mitch-lally-15032293.jpg");
 width: 100%;
-height: 700px;
+height: 300px;
 }
 input[type="checkbox"]{
     display: none;
