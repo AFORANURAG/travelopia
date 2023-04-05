@@ -51,6 +51,22 @@ body = {
             "budget": 10,
 }
 
+
+<h3>Before you jump to api testing and usage , please find the details of app query params used for dynamic routing and they are mentioned below.</h3>
+
+quert params = {
+
+   
+            ":page": "Page number lying between(1 to N)",
+            ":perpage": "number of documents required per page(it is configurable)",
+            ":sortingIndex": "can vary and is always between (1,0 and -1) 1 for ascending,-1 descending and 0 for default order",
+            ":name": "booking belongs to this name of the person or it search with :name parameter",
+            ":email": "booking belongs to this email of the person or it search with :email parameter",
+            
+}
+
+
+
 <h4>
 Get  all bookings with pagination enabled  ----->    GET /booking/:page/:perpage or URL-->https://travelopiaserver.onrender.com/booking/:page/:perpage
 </h4>
