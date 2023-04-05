@@ -67,81 +67,81 @@ quert params = {
 
 
 
-<h4>
+<h3>
 Get  all bookings with pagination enabled  ----->    GET /booking/:page/:perpage or URL-->https://travelopiaserver.onrender.com/booking/:page/:perpage
-</h4>
-<h3>An example of it would be 
+</h3>
+<h4>An example of it would be 
 https://travelopiaserver.onrender.com/booking/1/4
 this basically means to fetch 4 booking out of 1st page
-</h3>
+</h4>
 
 
-<h4>
+<h3>
 Search for booking with a particular email -->"booking/email/:email/:page
 URL--> GET https://travelopiaserver.onrender.com/booking/email/:email/:page
-</h4>
-<h3>An example of it would be 
+</h3>
+<h4>An example of it would be 
  https://travelopiaserver.onrender.com/booking/email/farhan12312@gmail.com/1
 this basically means to get the booking with email farhan12312@gmail.com
-</h3>
+</h4>
 
 
 
 
-<h4>
+<h3>
 Search for booking with a particular name -->"booking/name/:name/:page
 URL-->GET https://travelopiaserver.onrender.com/booking/name/:name/:page 
-</h4>
-<h3>An example of it would be 
+</h3>
+<h4>An example of it would be 
  https://travelopiaserver.onrender.com/booking/email/name/faran/1 
 this basically means to get the booking with name farhan
-</h3>
+</h4>
 
 
 
 
 
-<h4>
+<h3>
 Sort the data with name. -->"booking/sort/:sortingindex/name/:page
 URL--> GET https://travelopiaserver.onrender.com/booking/sort/:sortingindex/name/:page
-</h4>
-<h3>An example of it would be 
+</h3>
+<h4>An example of it would be 
  https://travelopiaserver.onrender.com/booking/sort/1/name/1
 this basically means sort the booking in ascending order of name and then getting all booking of  page 1 (by default 4 per page)
-</h3>
+</h4>
 
 
 
 
-<h4>
+<h3>
 Sort the data with email. -->"booking/sort/:sortingindex/email/:page
 URL--> GET https://travelopiaserver.onrender.com/booking/sort/:sortingindex/email/:page
-</h4>
-<h3>An example of it would be 
+</h3>
+<h4>An example of it would be 
  https://travelopiaserver.onrender.com/booking/sort/-1/email/1
 this basically means sort the booking in descending order of email and then getting all booking of  page 1 (by default 4 per page)
-</h3>
+</h4>
 
 
 
-<h4>
+<h3>
 Sort the data with number of travellers. -->"booking/sort/:sortingindex/travellers/:page
 URL--> GET https://travelopiaserver.onrender.com/booking/sort/:sortingindex/travellers/:page
-</h4>
-<h3>An example of it would be 
+</h3>
+<h4>An example of it would be 
  https://travelopiaserver.onrender.com/booking/sort/1/travellers/1
 this basically means sort the booking in ascending order of number of travellers per booking and then getting all booking of  page 1 (by default 4 per page)
-</h3>
+</h4>
 
 
-<h4>
+<h3>
 Sort the data with amount of different of every booking -->"booking/sort/:sortingindex/budget/:page
 URL--> GET https://travelopiaserver.onrender.com/booking/sort/:sortingindex/budget/:page
-</h4>
-<h3>An example of it would be 
+</h3>
+<h4>An example of it would be 
  https://travelopiaserver.onrender.com/booking/sort/1/budget/1
 this basically means sort the booking in ascending order of budget in each booking and then getting all booking of  page 1 (by default 4 per page)
-</h3>
+</h4>
 
 
 
