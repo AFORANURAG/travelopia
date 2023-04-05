@@ -34,21 +34,17 @@ modal schema = {
     budget:{type:Number,min:1,max:1000000}
 },{timestamps:"true"} 
 
-body =  {
+
+
+body = {
+
+   
             "_id": "642ddb5e26e274aa16bb8e47",
             "name": "farhan",
             "email": "farhan12312@gmail.com",
             "destination": "India",
             "travellers": 999,
             "budget": 10,
- }
-
-body = {
-
-    "email": "user@example.com",
-    "first_name": "John",
-    "last_name": "Doe",
-    "password": "password123"
 }
 
 
