@@ -25,7 +25,7 @@ Create a new booking. --->POST /booking/
 url-->https://travelopiaserver.onrender.com/booking (POST)
 
 
-body = {
+booking Modal Schema = {
 
    
             name:String,
