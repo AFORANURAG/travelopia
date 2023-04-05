@@ -52,36 +52,51 @@ body = {
 }
 
 <h4>
-Get  all bookings with pagination enabled  ----->    GET /booking/:page/:perpage or URL-->https://travelopiaserver.onrender.com/booking/:page/:perpage;
+Get  all bookings with pagination enabled  ----->    GET /booking/:page/:perpage or URL-->https://travelopiaserver.onrender.com/booking/:page/:perpage
 </h4>
-<p>where :page is between(1 to N) And :perpage is number of pages per page </p>
 
 
 
-
+<h4>
 Search for booking with a particular email -->"booking/email/:email/:page
-URL--> GET https://travelopiaserver.onrender.com/booking/email/:email/:page;
+URL--> GET https://travelopiaserver.onrender.com/booking/email/:email/:page
+</h4>
 
+
+<h4>
 Search for booking with a particular name -->"booking/name/:name/:page
-URL-->GET https://travelopiaserver.onrender.com/booking/name/:name/:page;
+URL-->GET https://travelopiaserver.onrender.com/booking/name/:name/:page 
+</h4>
 
 
 
+
+<h4>
 Sort the data with name. -->"booking/sort/:sortingindex/name/:page
-URL--> GET https://travelopiaserver.onrender.com/booking/sort/:sortingindex/name/:page;
+URL--> GET https://travelopiaserver.onrender.com/booking/sort/:sortingindex/name/:page
+</h4>
 
 
+
+<h4>
 Sort the data with email. -->"booking/sort/:sortingindex/email/:page
-URL--> GET https://travelopiaserver.onrender.com/booking/sort/:sortingindex/email/:page;
+URL--> GET https://travelopiaserver.onrender.com/booking/sort/:sortingindex/email/:page
+</h4>
 
 
+
+<h4>
 Sort the data with number of travellers. -->"booking/sort/:sortingindex/travellers/:page
-URL--> GET https://travelopiaserver.onrender.com/booking/sort/:sortingindex/travellers/:page;
+URL--> GET https://travelopiaserver.onrender.com/booking/sort/:sortingindex/travellers/:page
+</h4>
 
 
 
+<h4>
 Sort the data with amount of different of every booking -->"booking/sort/:sortingindex/budget/:page
-URL--> GET https://travelopiaserver.onrender.com/booking/sort/:sortingindex/budget/:page;
+URL--> GET https://travelopiaserver.onrender.com/booking/sort/:sortingindex/budget/:page
+</h4>
+
 
 
 
