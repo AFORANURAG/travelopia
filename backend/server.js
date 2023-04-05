@@ -3,7 +3,9 @@ const express = require('express');
 const app = express();
 const port = 8080;
 const {bookingController} = require("./controllers/booking.controller");
-const {connection} = require("./config/db.config")
+app.use(express.json());
+const {connection} = require("./config/db.config");
+app.use("/booking",bookingController);
 app.get('/', (req, res) => {
   res.status(200).json({message:'Hello, World!'});
 });
@@ -15,6 +17,5 @@ console.log(`connected to db successfully`);
 }catch(err){
 
 }
-
   console.log(`Server running on port ${port}`);
 });

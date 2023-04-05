@@ -4,7 +4,9 @@ let bookingSchema = mongoose.Schema({
   email:String,
   destination:{ type: String,
     enum: ['India', 'Africa',"Europe"],
-    default: 'India'}  
+    default: 'India'},
+    travellers:{type:Number,min:1,max:1000},
+    budget:{type:Number,min:1,max:1000000}
 },{timeStamps:"true"})
 let BookingModel = mongoose.model("booking",bookingSchema);
 module.exports = {BookingModel}
