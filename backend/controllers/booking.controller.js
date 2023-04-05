@@ -8,12 +8,6 @@ const { formValidator } = require("../middlewares/formValidator.js");
 
 
 
-
-
-
-
-
-
 bookingController.get("/:page/:perpage", async (req, res) => {
   // perpage is confirgurable;
   let page = req.params.page || 1;

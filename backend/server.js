@@ -1,8 +1,11 @@
 const express = require('express');
-
+const cors = require("cors");
 const app = express();
 const port = 8080;
 const {bookingController} = require("./controllers/booking.controller");
+app.use(cors({
+  origin:"*"
+}))
 app.use(express.json());
 const {connection} = require("./config/db.config");
 app.use("/booking",bookingController);
