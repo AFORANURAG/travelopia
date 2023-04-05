@@ -52,10 +52,11 @@ body = {
 }
 
 <h4>
-Get  all bookings with pagination enabled  ----->    GET /booking/:page/:perpage
+Get  all bookings with pagination enabled  ----->    GET /booking/:page/:perpage or URL-->https://travelopiaserver.onrender.com/booking/:page/:perpage;
 </h4>
-where :page is between(1 to N) And :perpage is number of pages per page
-URL-->https://travelopiaserver.onrender.com/booking/:page/:perpage;
+<p>where :page is between(1 to N) And :perpage is number of pages per page </p>
+
+
 
 
 Search for booking with a particular email -->"booking/email/:email/:page
