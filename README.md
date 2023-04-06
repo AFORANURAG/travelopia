@@ -25,8 +25,8 @@ There you will find the full codebase and an explanation of the entire project, 
 
 <p align="center">
   <img src="https://cdn.svgporn.com/logos/nextjs.svg" height="30" style="margin-left: 20px" /><br/>
-  <img src="https://cdn.svgporn.com/logos/mongodb.svg" height="40" style="margin-left: 20px" />
-  <img src="https://cdn.svgporn.com/logos/express.svg" height="40" style="margin-left: 100px" />
+  <img src="https://cdn.svgporn.com/logos/mongodb.svg" height="40" style="margin-left: 20px" /><br/>
+  <img src="https://cdn.svgporn.com/logos/express.svg" height="40" style="margin-left: 100px" /><br/>
   <img src="https://cdn.svgporn.com/logos/nodejs.svg" height="70" />
 </p>
 
