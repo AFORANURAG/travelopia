@@ -165,32 +165,36 @@ bookingController.get(
   }
 );
 // searching is availabe
-bookingController.get("/sort/:sortingindex/budget/:page", async (req, res) => {
-  let sortingIndex = req.params.sortingindex || 0;
-  let page = +req.params.page || 1;
-  let allowedIndexes = new Set([1, 0, -1]);
-  console.log(page, allowedIndexes,sortingIndex)
-  if (page >= 1 && allowedIndexes.has(sortingIndex)) {
-    try {
-      let allBookings = await BookingModel.find({})
-        .sort({ budget: sortingIndex })
-        .skip((page - 1) * 4)
-        .limit(4);
-      if (allBookings.length > 0) {
-        res.status(200).json({ allBookings });
-      } else {
-        res.status(404).json({ message: "not found" });
+
+bookingController.get(
+  "/sort/:sortingindex/budget/:page",
+  async (req, res) => {
+    let skipPage = +req.params.page || 1;
+
+    let sortingIndex = +req.params.sortingindex || 0;
+    let allowedIndexes = new Set([1, 0, -1]);
+    if (skipPage >= 1 && allowedIndexes.has(sortingIndex)) {
+      try {
+        let allBookings = await BookingModel.find({})
+          .sort({ budget: sortingIndex })
+          .skip((skipPage - 1) * 4)
+          .limit(4);
+        if (allBookings.length > 0) {
+          res.status(200).json({ allBookings });
+        } else {
+          res.status(404).json({ message: "not found" });
+        }
+      } catch (error) {
+        console.log(`error while sorting for bookings:error: ${error}`);
+        res.status(404).json({ message: error });
       }
-    } catch (error) {
-      console.log(`error while sorting for bookings:error: ${error}`);
-      res.status(404).json({ message: error });
+    } else {
+      res
+        .status(400)
+        .json({ message: "page number properties can not be negetive" });
     }
-  } else {
-    res
-      .status(400)
-      .json({ message: "page number properties can not be negetive" });
   }
-});
+);
 
 bookingController.post("/", formValidator, async (req, res) => {
   try {
