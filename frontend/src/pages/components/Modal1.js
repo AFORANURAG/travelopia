@@ -8,7 +8,7 @@ import {
     Button
 } from "@chakra-ui/react";
 
- function Modal1({handleModal1Open,handleModal1Close,isModal1Open}){
+ export default function Modal1({handleModal1Open,handleModal1Close,isModal1Open}){
     return (
         <> 
           <Modal isOpen={isModal1Open} onClose={handleModal1Close}>
@@ -27,23 +27,22 @@ import {
     )
 }
 
- function Modal2({handleModal2Open,handleModal2Close,isModal2Open}){
-    return (
-        <>
+//  function Modal2({handleModal2Open,handleModal2Close,isModal2Open}){
+//     return (
+//         <>
          
-          <Modal isOpen={isModal2Open} onClose={handleModal2Close}>
-            <ModalOverlay />
-            <ModalContent>
-              <ModalHeader>Error</ModalHeader>
-              <ModalBody>
-                <p>Error while sending the data, Please check your booking details once again and continue</p>
-              </ModalBody>
-              <ModalFooter>
-                <Button onClick={handleModal2Close}>Close</Button>
-              </ModalFooter>
-            </ModalContent>
-          </Modal>
-          </>
-    )
-}
-export {Modal2,Modal1}
+//           <Modal isOpen={isModal2Open} onClose={handleModal2Close}>
+//             <ModalOverlay />
+//             <ModalContent>
+//               <ModalHeader>Error</ModalHeader>
+//               <ModalBody>
+//                 <p>Error while sending the data, Please check your booking details once again and continue</p>
+//               </ModalBody>
+//               <ModalFooter>
+//                 <Button onClick={handleModal2Close}>Close</Button>
+//               </ModalFooter>
+//             </ModalContent>
+//           </Modal>
+//           </>
+//     )
+// }

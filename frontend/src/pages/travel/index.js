@@ -9,7 +9,8 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import axios from "axios";
-import { Modal1, Modal2 } from "../components/Modal1.js";
+import Modal1 from "../components/Modal1";
+import Modal2 from "../components/Modal2";
 import {
   Box,
   Select,
