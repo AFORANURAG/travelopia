@@ -9,7 +9,7 @@ grid-template-rows: auto;
 row-gap: 20px;
 column-gap: 20px;
 color: grey;
-margin-top: 100px;
+margin-top: 20px;
 }
 #bookingcontainer>div{
     background: linear-gradient(to bottom, #1A2980, #26D0CE);
