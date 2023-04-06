@@ -25,10 +25,10 @@ There you will find the full codebase and an explanation of the entire project, 
 
 <div align="center" display="flex">
   
-  <div>  <img src="https://cdn.svgporn.com/logos/nextjs.svg" height="30" style="margin-left: 20" /></div>
-  <div>  <img src="https://cdn.svgporn.com/logos/mongodb.svg" height="40" style="margin-left: 20px"/> </div>
-  <div>  <img src="https://cdn.svgporn.com/logos/express.svg" height="40" style="margin-left: 100"/> </div>
-  <div>  <img src="https://cdn.svgporn.com/logos/nodejs.svg" height="50" /></div>
+    <img src="https://cdn.svgporn.com/logos/nextjs.svg" height="30" style="margin-left: 20" />
+   <img src="https://cdn.svgporn.com/logos/mongodb.svg" height="40" style="margin-left: 20px"/>
+  <img src="https://cdn.svgporn.com/logos/express.svg" height="40" style="margin-left: 100"/>
+ <img src="https://cdn.svgporn.com/logos/nodejs.svg" height="50" /></div>
 
 </div>
 
