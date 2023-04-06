@@ -20,6 +20,18 @@ There you will find the full codebase and an explanation of the entire project, 
 - A link to the deployed backend: [https://travelopiaserver.onrender.com](https://travelopiaserver.onrender.com)
 - A video presentation of the project: [https://drive.google.com/file/d/17nIEihKBxoA1PSBCEKBrdAc7SdzD-Yah/view?usp=sharing](https://drive.google.com/file/d/17nIEihKBxoA1PSBCEKBrdAc7SdzD-Yah/view?usp=sharing)
 
+
+## Tech Stack
+
+- Next.js
+- MongoDB
+- Mongoose
+- Express.js
+- Node.js
+
+
+
+
 # Run in you local machine
 
 1. git clone https://github.com/AFORANURAG/travelopia.git
