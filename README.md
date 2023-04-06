@@ -3,10 +3,10 @@
 Prerequisites
 Before you start, please make sure that you have the following installed on your machine:
 
--Node.js (version 14 or higher)
--NPM (Node Package Manager)
--Git
--Your favorite code editor (e.g., Visual Studio Code, Sublime Text, Atom)
+- Node.js (version 14 or higher)
+- NPM (Node Package Manager)
+- Git
+- Your favorite code editor (e.g., Visual Studio Code, Sublime Text, Atom)
 
 ## Project Presentation
 
