@@ -92,7 +92,7 @@ bookingController.get("/sort/:sortingindex/name/:page", async (req, res) => {
   let sortingIndex = +req.params.sortingindex || 0;
   let skipPage = +req.params.page||1
   console.log(sortingIndex,skipPage)
-  let allowedIndexes = new Set([1,2,3]);
+  let allowedIndexes = new Set([1,0,-1]);
   if(skipPage>=1&&allowedIndexes.has(sortingIndex)){
     try {
       let allBookings = await BookingModel.find({})
@@ -118,7 +118,7 @@ bookingController.get("/sort/:sortingindex/name/:page", async (req, res) => {
 bookingController.get("/sort/:sortingindex/email/:page", async (req, res) => {
   let sortingIndex = +req.params.sortingindex || 0;
   let page = +req.params.page||1;
-  let allowedIndexes = new Set([1,2,3]);
+  let allowedIndexes = new Set([1,0,-1]);
   if(page>=1&&allowedIndexes.has(sortingIndex)){
     try {
       let allBookings = await BookingModel.find({})
@@ -147,7 +147,7 @@ bookingController.get(
     let skipPage = +req.params.page||1
 
     let sortingIndex = +req.params.sortingindex || 0;
-    let allowedIndexes = new Set([1,2,3]);
+    let allowedIndexes = new Set([1,0,-1]);
     if(skipPage>=1&&allowedIndexes.has(sortingIndex)){  try {
       let allBookings = await BookingModel.find({})
         .sort({ travellers: sortingIndex })
@@ -176,7 +176,7 @@ else{
 bookingController.get("/sort/:sortingindex/budget/:page", async (req, res) => {
   let sortingIndex = req.params.sortingindex || 0;
   let page = +req.params.page || 1
-  let allowedIndexes = new Set([1,2,3]);
+  let allowedIndexes = new Set([1,0,-1]);
   if(page>=1&&allowedIndexes.has(sortingIndex)){  try {
     let allBookings = await BookingModel.find({})
       .sort({ budget: sortingIndex })
