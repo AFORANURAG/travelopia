@@ -1,4 +1,4 @@
-# travelopia
+# Travelopia
 
 Prerequisites
 Before you start, please make sure that you have the following installed on your machine:
