@@ -1,4 +1,5 @@
 # travelopia
+<<<<<<< HEAD
 
 Prerequisites
 Before you start, please make sure that you have the following installed on your machine:
@@ -39,3 +40,7 @@ There you will find the full codebase and an explanation of the entire project, 
 7. Open your web browser and navigate to http://localhost:3000 to see the frontend app running.
 
 
+=======
+<h1>Video presentation.The Below link will demonstrate how this project will work and each abd every important thing about this project please go through it.</h1>
+https://drive.google.com/file/d/17nIEihKBxoA1PSBCEKBrdAc7SdzD-Yah/view?usp=sharing
+>>>>>>> b32b76363bf4de3db8ffad1ac89dc3af83dfb035
