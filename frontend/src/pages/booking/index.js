@@ -3,7 +3,7 @@ import axios from "axios"
 import { useRouter } from 'next/router';
 import { useState,useEffect } from 'react';
 import Link from 'next/link';
-
+const { v4: uuidv4 } = require('uuid');
 export default function Destination({ initialData }) {
     const [data,setData] = useState(initialData);
   const router = useRouter();
@@ -27,7 +27,8 @@ fetchMoreData()
 
 
 useEffect(()=>{
-
+    let debounce  = debouncing(cb1,2000);
+    debounce(email);
 },[email])
 
 
@@ -64,8 +65,6 @@ return (...args)=>{
 
 function searchWithEmail(e){
     setEmail(e.target.value)
-let debounce  = debouncing(cb1,2000);
-debounce(e.target.value);
 }
 
 
@@ -108,7 +107,7 @@ setData(res.data.allBookings);
     </div>
     <div id="bookingscontainer">
     {data?.map((el)=>{
-        return (  <div>
+        return (  <div key = {uuidv4()}>
            
         <BookingCard  {...el}/>
           </div>)
@@ -142,6 +141,7 @@ let initialData = data.allBookings;
 
 
       <Box
+     
         borderWidth="1px"
         borderRadius="lg"
         overflow="hidden"

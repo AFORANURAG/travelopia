@@ -152,7 +152,7 @@ export default function ContactFormWithSocialButtons() {
                     <FormControl isRequired>
                       <FormLabel m={2}>Name</FormLabel>
                       <InputGroup w={300}>
-                        <InputLeftElement children={<BsPerson />} />
+                        <InputLeftElement  >{<BsPerson />}</InputLeftElement>
                         <Input
                           onChange={handleChange}
                           minLength={"0"}
@@ -168,7 +168,7 @@ export default function ContactFormWithSocialButtons() {
                       <FormLabel m={2}>Email</FormLabel>
 
                       <InputGroup>
-                        <InputLeftElement children={<MdOutlineEmail />} />
+                        <InputLeftElement>{<MdOutlineEmail />}</InputLeftElement>
                         <Input
                           onChange={handleChange}
                           value={formDetail.email}
@@ -198,7 +198,7 @@ export default function ContactFormWithSocialButtons() {
                     <FormControl isRequired>
                       <FormLabel m={2}>Number of Travellers</FormLabel>
                       <InputGroup>
-                        <InputLeftElement children={<SiYourtraveldottv />} />
+                        <InputLeftElement >{<SiYourtraveldottv />}</InputLeftElement>
                         <Input
                           value={formDetail.travellers}
                           type="number"
@@ -211,9 +211,7 @@ export default function ContactFormWithSocialButtons() {
                     <FormControl isRequired>
                       <FormLabel m={2}>Budget Per Person(In $)</FormLabel>
                       <InputGroup>
-                        <InputLeftElement
-                          children={<AiOutlineDollarCircle />}
-                        />
+                       <InputLeftElement>  {<AiOutlineDollarCircle />}</InputLeftElement>
                         <Input
                           onChange={handleChange}
                           value={formDetail.budget}
