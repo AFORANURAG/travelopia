@@ -2,6 +2,7 @@ import '@/styles/globals.css';
 import 'animate.css';
 import '@/styles/index.css'
 import "@/styles/form.css"
+import "@/styles/travelpage.css";
 import Layout from './components/Layout.js';
 import { ChakraProvider } from '@chakra-ui/react';
 

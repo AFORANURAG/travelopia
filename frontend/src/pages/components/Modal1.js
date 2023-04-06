@@ -10,14 +10,13 @@ import {
 
  function Modal1({handleModal1Open,handleModal1Close,isModal1Open}){
     return (
-        <>
-          <Button onClick={handleModal1Open}>Open Modal 1</Button>
+        <> 
           <Modal isOpen={isModal1Open} onClose={handleModal1Close}>
             <ModalOverlay />
             <ModalContent>
-              <ModalHeader>Modal 1</ModalHeader>
+              <ModalHeader>Data Saved Successfully</ModalHeader>
               <ModalBody>
-                <p>This is the content of Modal 1.</p>
+                <p>You Data Has been saved successfully, Happy Travel and enjoy your experience.</p>
               </ModalBody>
               <ModalFooter>
                 <Button onClick={handleModal1Close}>Close</Button>
@@ -31,13 +30,13 @@ import {
  function Modal2({handleModal2Open,handleModal2Close,isModal2Open}){
     return (
         <>
-          <Button onClick={handleModal2Open}>Open Modal 1</Button>
+         
           <Modal isOpen={isModal2Open} onClose={handleModal2Close}>
             <ModalOverlay />
             <ModalContent>
-              <ModalHeader>Modal 1</ModalHeader>
+              <ModalHeader>Error</ModalHeader>
               <ModalBody>
-                <p>This is the content of Modal 1.</p>
+                <p>Error while sending the data, Please check your booking details once again and continue</p>
               </ModalBody>
               <ModalFooter>
                 <Button onClick={handleModal2Close}>Close</Button>

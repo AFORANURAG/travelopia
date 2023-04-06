@@ -1,0 +1,31 @@
+*::after,::before,*{
+    box-sizing: border-box  ;
+}
+
+#bookingscontainer{
+    display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: auto;
+row-gap: 20px;
+column-gap: 20px;
+color: grey;
+margin-top: 100px;
+}
+#bookingcontainer>div{
+    background: linear-gradient(to bottom, #1A2980, #26D0CE);
+}
+@media (max-width:768px){
+    #bookingscontainer{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+  
+    }
+}
+
+@media (max-width:468px){
+    #bookingscontainer{
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+  
+    }
+}
