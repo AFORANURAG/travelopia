@@ -1,4 +1,8 @@
 # Travelopia
+<h1>
+Travelopia is a web application that helps users plan their travel itineraries. The app allows users to browse popular destinations, create custom travel plans, and share their itineraries with others. The app is built using React and utilizes several APIs to provide users with up-to-date information on travel destinations and activities.
+</h1>
+
 
 Prerequisites
 Before you start, please make sure that you have the following installed on your machine:
