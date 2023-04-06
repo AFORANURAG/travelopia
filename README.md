@@ -55,3 +55,5 @@ There you will find the full codebase and an explanation of the entire project, 
 7. Open your web browser and navigate to http://localhost:3000 to see the frontend app running.
 
 
+# Step wise instruction
+
