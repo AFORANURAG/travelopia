@@ -1,6 +1,5 @@
 # travelopia
 
-
 Prerequisites
 Before you start, please make sure that you have the following installed on your machine:
 
@@ -38,6 +37,5 @@ There you will find the full codebase and an explanation of the entire project, 
 6. for starting frontend, type (npm run dev) in the frontendend directory.
 
 7. Open your web browser and navigate to http://localhost:3000 to see the frontend app running.
-
 
 
