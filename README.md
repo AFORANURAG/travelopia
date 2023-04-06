@@ -61,36 +61,16 @@ There you will find the full codebase and an explanation of the entire project, 
 
 # Step wise instruction
 
-Table of Contents
-Demo
-Features
-Installation
-Usage
-Contributing
-License
-Demo
-Check out the live demo of Travelopia at https://travelopia-seven.vercel.app/.
+# Table of Contents
+- Demo
+- Features
+- Installation
+- Usage
+- Demo
+Check out the live demo of Travelopia at https://drive.google.com/file/d/17nIEihKBxoA1PSBCEKBrdAc7SdzD-Yah/view?usp=sharing
 
 Features
 Travelopia provides the following features:
 
-Browse popular travel destinations
-Search for specific travel destinations
-Create custom travel itineraries
-Add activities to travel itineraries
-Share travel itineraries with others
-Get up-to-date information on travel destinations and activities
-Installation
-To install Travelopia on your local machine, follow these steps:
-
-Clone the repository: git clone https://github.com/<your-username>/travelopia.git
-Navigate to the project directory: cd travelopia
-Install dependencies: npm install
-Usage
-To run Travelopia on your local machine, follow these steps:
-
-Navigate to the project directory: cd travelopia
-Start the development server: npm start
-Open your web browser and navigate to http://localhost:3000
 
 
