@@ -42,6 +42,28 @@ There you will find the full codebase and an explanation of the entire project, 
 </div>
 
 
+# Step wise instruction
+
+# Table of Contents
+- Demo
+- Features
+- Usage
+- Demo
+
+Check out the live demo of Travelopia at https://drive.google.com/file/d/17nIEihKBxoA1PSBCEKBrdAc7SdzD-Yah/view?usp=sharing
+
+Features
+Travelopia provides the following features:
+- You can book a destination.
+- You can see yours and others booked destinations.
+- you can sort the bookings in ascending and descending order of total number of travellers.
+- you can search the bookings based on the email, the searching functionality is implemented in serverside, to lower the load on client side and it searching functionality uses  <b> debouncing</b> to make itself more optimised.
+- Number of bookings per page is customizable.So you can have 4 bookings perpage ,or 8 booking perpage but at max 16 and minimum 1.
+
+Usage
+- First Open the deployed/live link (https://travelopia-seven.vercel.app/).
+
+
 
 
 
@@ -62,23 +84,6 @@ There you will find the full codebase and an explanation of the entire project, 
 6. for starting frontend, type (npm run dev) in the frontendend directory.
 
 7. Open your web browser and navigate to http://localhost:3000 to see the frontend app running.
-
-
-# Step wise instruction
-
-# Table of Contents
-- Demo
-- Features
-- Installation
-- Usage
-- Demo
-Check out the live demo of Travelopia at https://drive.google.com/file/d/17nIEihKBxoA1PSBCEKBrdAc7SdzD-Yah/view?usp=sharing
-
-Features
-Travelopia provides the following features:
-- You can book a destination.
-- You can see yours and others booked destinations.
-- you can sort the bookings in ascending and descending order of total number of travellers.
-- you can search the bookings based on the email, the searching functionality is implemented in serverside, to lower the load on client side and it searching functionality uses  <b> debouncing</b> to make itself more optimised.
+ 
 
 
