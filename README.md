@@ -82,7 +82,12 @@ Usage
 - On Filling your information correctly, This modal will show up. 
 ![Screenshot from 2023-04-08 02-34-57](https://user-images.githubusercontent.com/108891203/230678902-12b5eedb-da1f-49bc-8299-be5aec13e53f.png)
 
+- Now navigate to the Active booking page and there you will be able to see all of this.
+![Screenshot from 2023-04-08 02-37-40](https://user-images.githubusercontent.com/108891203/230679169-f5d68828-d68c-4695-b22e-ec961b24b34d.png)
 
+- You can configure how many bookings perpage you want.
+- You can search a booking with its email.
+- You can sort the bookings by total number of travellers per booking.And thats it.
 
 # Run in you local machine
 
