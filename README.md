@@ -62,6 +62,11 @@ Travelopia provides the following features:
 
 Usage
 - First Open the deployed/live link (https://travelopia-seven.vercel.app/).
+![Screenshot from 2023-04-08 02-14-04](https://user-images.githubusercontent.com/108891203/230676484-4a2a968e-e04b-4abe-8715-0a7aaed69a52.png)
+
+- Click on Travel, And after clicking on it , you will be able to see this page.
+- 
+![Screenshot from 2023-04-08 02-13-00](https://user-images.githubusercontent.com/108891203/230676505-7d0cbe4d-998f-464a-8b36-8786a05e1a19.png)
 
 
 
