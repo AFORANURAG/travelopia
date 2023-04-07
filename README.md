@@ -80,6 +80,8 @@ Usage
 ![Screenshot from 2023-04-08 02-23-26](https://user-images.githubusercontent.com/108891203/230677467-7f2e9b5b-7ca3-4502-987f-f397e2d55ded.png)
 
 - On Filling your information correctly, This modal will show up. 
+![Screenshot from 2023-04-08 02-34-57](https://user-images.githubusercontent.com/108891203/230678902-12b5eedb-da1f-49bc-8299-be5aec13e53f.png)
+
 
 
 # Run in you local machine
