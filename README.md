@@ -67,9 +67,19 @@ Usage
 - Click on Travel, And after clicking on it , you will be able to see this page.
 - 
 ![Screenshot from 2023-04-08 02-13-00](https://user-images.githubusercontent.com/108891203/230676505-7d0cbe4d-998f-464a-8b36-8786a05e1a19.png)
+- Start Filling that form.While filling that form , keep the below things in mind.
+<ul>
+  
+  <li>Number of traveller cannot be less than 1 and cannot be more than 1000</li>
+  <li>Budget per person has to be more than 10 dollars and less than 1 million dollars.</li>
+  <li>All these limits are set to avoid the exploitation of the system.</li>
+  <li>Enter the correct and valid email and your name  should have atleast one character and should have a least length of 4.</li>
+  <li><Validations are performed in frontend and backend.In The backend, I am using regex,and middlewares for validation of the form data.
+</ul>
+- If you fill wrong/invalid information, A warning model would be generated.
+![Screenshot from 2023-04-08 02-23-26](https://user-images.githubusercontent.com/108891203/230677467-7f2e9b5b-7ca3-4502-987f-f397e2d55ded.png)
 
-
-
+- On Filling your information correctly, This modal will show up. 
 
 
 # Run in you local machine
