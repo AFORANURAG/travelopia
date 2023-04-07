@@ -3,6 +3,11 @@
 Travelopia is the world's largest collection of EXPERIENTIAL travel brands. Their award-winning travel brands create unique experiences for their guests around the world.
 </h1>
 
+# Note: 
+<h2>
+This is an app built with nextjs and it is SSR bydefault.So when you start the application , it might take some time to start but once it is started.The experience will be smooth. To see the live demonstration of this project , just navigate to the project presentation section below.
+</h2>
+
 
 Prerequisites
 Before you start, please make sure that you have the following installed on your machine:
@@ -71,6 +76,9 @@ Check out the live demo of Travelopia at https://drive.google.com/file/d/17nIEih
 
 Features
 Travelopia provides the following features:
-
+- You can book a destination.
+- You can see yours and others booked destinations.
+- you can sort it in ascending and descending order of total number of travellers.
+- you can search the booking 
 
 
